@@ -17,10 +17,10 @@ function showDice() {
 
     if (n1>n2){
         //change text in container class element to 'player 1 wins'
-        document.querySelector(".winner").textContent="Player 1 Wins!";
+        document.querySelector(".winner").textContent="🚩Player 1 Wins!";
          } else if (n1<n2) {
              //change text in container class element to 'player 2 wins'
-            document.querySelector(".winner").textContent="Player 2 Wins!";
+            document.querySelector(".winner").textContent="Player 2 Wins!🚩";
          } else{
              //If both dice have the same value, it will re-roll
              console.log("It was a tie! Now Re-rolling");
